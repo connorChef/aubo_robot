@@ -23,7 +23,7 @@
   <node name="real_state_rviz" pkg="aubo_control" type="real_state_rviz"/>
 
 
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find aubo_description)/aubo_i5.rviz" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find aubo_description)/aubo.rviz" />
 
 </launch>
 

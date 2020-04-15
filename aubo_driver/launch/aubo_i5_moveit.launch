@@ -15,7 +15,7 @@
   <node name="aubo_driver" pkg="aubo_driver" type="aubo_driver" args="$(arg robot_ip) $(arg reverse_port)" output="screen"/>
 
 
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find aubo_description)/aubo_i5.rviz" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find aubo_description)/aubo.rviz" />
 
 </launch>
 
