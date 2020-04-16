@@ -10,7 +10,7 @@
   <arg name="prefix" default="" />
 
   <!-- robot model -->
-  <include file="$(find aubo_description)/launch/aubo_i5_upload.launch"/>
+  <include file="$(find aubo_description)/launch/aubo_i3_upload.launch"/>
 
 
   <!-- aubo common -->
@@ -19,5 +19,5 @@
     <arg name="robot_ip" value="$(arg robot_ip)"/>
   </include>
 
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find aubo_description)/aubo.rviz" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find aubo_description)/aubo_i3.rviz" />
 </launch>
